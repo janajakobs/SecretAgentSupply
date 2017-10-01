@@ -1,0 +1,79 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+/* Header */
+
+/* First header - Company */
+.company {
+  display: block;
+  background-color: black;
+  width: 100%;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+}
+
+.company img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.company h4 {
+  font-size: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+/* END First header - Company */
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+  width: 100%;
+}
+
+
+.heading {
+  position: relative;
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  font-weight: bold;
+  align-content: center;
+
+}
+
+.heading h4 {
+  display: block;
+  font-size: 1rem;
+
+}
+
+.heading h1 {
+  display: block;
+  font-size: 2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+
+}
+
+/* END Banner */
+
+/* END Header */
