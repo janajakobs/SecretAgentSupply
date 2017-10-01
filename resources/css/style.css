@@ -1,6 +1,6 @@
 html {
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   color: white;
 }
 
@@ -15,7 +15,7 @@ html {
 .company {
   display: block;
   background-color: black;
-  width: 100%;
+  font-size: 1rem;
 }
 
 .company .container {
@@ -38,41 +38,49 @@ html {
 
 /* Banner */
 .banner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-image: url("../images/moto.jpeg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 25rem;
-  width: 100%;
 }
-
 
 .heading {
   position: relative;
   width: 20rem;
   background-color: black;
   padding: 2rem 3rem;
-  margin-top: 9rem;
+  top: 9rem;
   font-weight: bold;
-  align-content: center;
-
-}
-
-.heading h4 {
-  display: block;
-  font-size: 1rem;
-
 }
 
 .heading h1 {
-  display: block;
   font-size: 2rem;
   margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-
+  line-height: 1.2em;
 }
+
+.heading h4 {
+  font-size: 1rem;
+  line-height: 1.2em;
+}
+
+/* Navigation part */
+nav {
+  background-color: firebrick;
+}
+
+ nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+}
+
+
+/* END Navigation part */
+
+
 
 /* END Banner */
 
