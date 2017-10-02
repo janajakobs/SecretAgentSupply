@@ -4,6 +4,10 @@ html {
   color: white;
 }
 
+body {
+  line-height: 1.4em;
+}
+
 .container {
     max-width: 960px;
     margin: 0px auto;
@@ -123,15 +127,56 @@ nav {
 /* END Products */
 
 /* Info */
+.container .info {
+  display: flex;
+  max-width: 960px;
+}
 
+.info {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
 
+.location {
+  width: 35%;
+}
 
+.hours {
+  width: 35%;
+}
+
+.info h4 {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info span {
+  color: black;
+  line-height: 1.4em;
+}
 /* END Info */
 
-
-
-
-
-
-
 /* END Main body */
+
+
+/* Footer */
+footer {
+  display: block;
+  background-color: black;
+  height: 5rem;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  margin-top: 4rem;
+}
+
+
+
+footer span {
+  text-align: left;
+  margin: 0;
+}
+
+/* END Footer */
